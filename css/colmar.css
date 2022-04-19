@@ -1,0 +1,594 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    color: #989898;
+    margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4f4f4f;
+}
+
+a:hover {
+    color: #808080;
+    transition: color ease-in 300ms;
+}
+
+
+/* Navigation */
+
+header {
+    width: 100%;
+    height: 64px;
+    background-color: white;
+}
+
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+
+header .colmar {
+    color: #01161E;
+}
+
+header .academy {
+    color: #9f9b9b;
+}
+
+.desktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+img .logo {
+    height: 32px;
+}
+
+
+/* Section 1 Banner  */
+
+.banner {
+    background-color: #d1d1d1;
+    padding: 32px 24px;
+    width: 100%;
+    display: flex;
+}
+
+.banner-image {
+    max-width: 60%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    padding: 0px 24px;
+    display: inline;
+    margin: auto;
+    text-align: left;
+}
+
+.banner-content h1 {
+    display: inline;
+}
+
+
+
+.button {
+    background-color: #303030;
+    padding: 8px 0px;
+    width: 60%;
+}
+
+.button :hover {
+    color: #606060;
+    transition: color ease-in 300ms;
+}
+
+.button p {
+    text-align: center;
+    line-height: 0;
+}
+
+.button-link {
+    color: white;
+}
+
+
+
+/* Section 2 Information section Left Pane*/
+
+.information{
+    display: flex;
+    padding: 2rem 0 0 1.5rem;
+}
+
+.information-leftPane {
+    width: 60%;
+    padding-right: 1.5rem;
+}
+
+.information-leftPane img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.information-leftPane h2 {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+.information-leftPane p {
+    padding-top: 0.5rem;
+    display: inline-block;
+}
+
+
+/* information section Right Pane*/
+
+.information-rows {
+    width: 40%;
+}
+
+.image-container {
+    display: flex;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-image {
+    max-width: 35%;
+}
+
+.info-content {
+    padding: 0 16px;
+}
+
+.info-content p {
+    font-size: 15px;
+}
+
+.info-content h3 {
+    display: inline;
+}
+
+.info-content a {
+    font-size: 15px;
+    color: rgb(24, 24, 206);
+}
+
+#guestLecturer {
+    display: flex;
+    background-color: #cfcfcf;
+    width: 100%;
+    padding: 32px 0px 16px 16px;
+} 
+
+
+#guestLecturerImg {
+    max-width: 35%; 
+    height: auto;
+}
+
+.oliversacksfit {
+    object-fit: stretch;
+}
+
+/* Section 3 Courses */
+
+.courses {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 32px 72px;
+}
+
+.courses h2 {
+    text-align: center;
+    margin: 0px auto 32px;
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-item {
+    display: block;
+    width: 32%;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.course-image {
+    max-width: 100%;
+    padding-bottom: 16px;
+}
+
+.course-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-desc {
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.course-desc h4 {
+    display: inline;
+}
+
+.course-desc p {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+/* Section 4 Thesis Exhibit */
+
+.thesis {
+    max-width: 100%;
+    padding: 32px 24px 32px 24px;
+}
+
+.thesis .center {
+    margin-bottom: 2rem;
+}
+
+.thesis h2 {
+    text-align: center;
+    margin: 0px auto 32px;
+}
+
+.thesis p {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.content-box {
+    display: flex;
+}
+
+.video-container {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.video-player {
+    margin-bottom: 24px;
+}
+
+.video-player video{
+    width: 100%;
+    height: auto;
+}
+
+.thesis .image-container {
+    align-items: center;
+}
+
+.fisma-section {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 16px 0px 16px 24px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.fisma-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-size: 12px;
+    color: #989898;
+    padding: 16px 16px 16px 24px;
+    justify-content: space-around;
+    border-top: 0.5px solid #cfcfcf;
+}
+
+
+.copyright {
+    float: left;
+}
+
+.footer-links {
+    align-items: center;
+    float: right;
+} 
+
+.footer-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0px;
+    font-size: 12px;
+    color: #989898;
+    align-items: center;
+}
+
+.footer-links ul {
+    padding: 0px 16px;
+    margin: auto 15px;
+}
+
+
+
+
+
+/* Mobile View */
+/* Media Query for header and banner hidden below 721px */
+
+@media only screen and (min-width: 721px) {
+    .mobile {
+        display: none;
+    }
+
+     .banner-mobile {
+        display: none;
+    } 
+
+    .content-image-mobile {
+        display: none;
+    }
+
+    .guestLecturerMobile {
+        display: none;
+    }
+
+} 
+
+
+@media only screen and (max-width: 720px) {
+    body {
+        margin: 0;
+    }
+    
+    .desktop, .content h5, .logo {
+        display: none;
+    }
+
+    /* Nav Header */
+    .mobile {
+        width: 100%;
+    }
+
+    header nav ul, .mobile {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header nav li {
+        padding: 0 1.25rem;
+    }
+
+    header .content {
+        padding: 0;
+    }
+
+    /* Section 1 Banner */
+
+    .banner {
+        display: none;
+    }
+
+    .banner-content {
+        display: none;
+    }
+
+    .banner-mobile {
+        background-color: #d1d1d1;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-mobile-image img {
+        width: 100%;
+    }
+
+    .banner-mobile-content  {
+        display: block;
+        width: 100%;
+        padding: 16px 0px 32px 0px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+
+    }
+
+     
+    .banner-mobile-content button {
+        margin: 0px 60px;
+        background-color: #303030;
+        color: white;
+    padding: 0px 150px 0px 150px;;
+    }
+
+    .banner-mobile-button-link p {
+        text-align: center;
+        line-height: 0;
+        color: white;
+    }
+    
+     /* Section 2 Info Mobile */
+    .information {
+        padding: 32px 24px;
+    }
+    .information-leftPane {
+        display: none;
+    }
+
+    .information-rows {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .info-content {
+        padding: 0px 0px 32px 0px;
+        margin-top: 16px;
+    }
+
+    .info-content h3 {
+        padding: 16px 0px 32px 16px;
+        margin-top: 16px;
+    }
+
+    .info-content p, a {
+        padding: 16px 0px 8px 16px;
+        margin: 0;
+    }
+    .content-image {
+        display: none;
+    }
+
+    .content-image-mobile {
+        display: block;
+        max-width: 100%;
+    }
+
+    .image-container {
+        display: block;
+        margin: 0;
+        padding-bottom: 16px;
+        padding-left: 0;
+    }
+
+    #guestLecturer {
+        display: none;
+    }
+
+
+    /* Section 3 Courses Mobile */
+    .courses {
+        display: block;
+        padding: 0px 72px;
+        background-color: #fff;
+    }
+
+    .course-item {
+        display: block;
+        /* margin-top: 16px; */
+        text-align: center;
+        width: 100%;
+    }
+
+    .course-image, .course-desc p {
+        display: none;
+    }
+
+    .course-cards {
+        width: 100%;
+    }
+
+    .course-desc {
+        background-color: #cfcfcf;
+    }
+
+    .course-desc h4 {
+        display: block;
+        text-align: center;
+        margin: 0px auto 0px;
+        padding: 16px 0px;
+    }
+
+    /* Section 4 Thesis Exhibit Mobile */
+    .thesis .thesis-right-pane, .thesis .fisma-section {
+        display: none;
+    }
+
+    .thesis h4, .thesis p {
+        display: none;
+    }
+
+    .thesis {
+        padding: 32px 0;
+    }
+
+    .content-box {
+        display: block;
+        width: 100%;
+    }
+
+    .video-container {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .video-player {
+        margin-bottom: 0;
+    }
+}
+
